@@ -1,0 +1,284 @@
+/*  <!--بسم الله الرحمن الرحيم-->
+    <!--يا صاحب الزمان ادركني-->*/
+*{
+    font-family: 'cairo', 'Rubik', arial;
+}
+body{
+    height: 100vh;
+    font-size: 20px;
+    background-color: #fff;
+}
+.title{
+    position: relative;
+    width: 100%;
+    font-family: 'Aref Ruqaa';
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    color: #2d611f;
+}
+#list{
+    position: fixed;
+    display: flex;
+    flex-direction:  column;
+    justify-content: space-between;
+    width: 300px;
+    background-color: #2d611f;
+    height: 87%;
+    border-radius: 20px;
+    z-index: 999;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.list1{
+    color: #2e691ddd;
+    color: #fff;
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+.list1:hover{
+    font-size: 1.1em;
+}
+#inf{
+    display: inline-block;
+    position: absolute;
+    left: 15em;
+    top: 10em;
+}
+.img{
+    width: 900px;
+    height: 900px;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 50px;
+    top: 280px;
+    z-index: -1;
+}    
+.prays{
+    position: absolute;
+    top: 1000px;
+    left: 450px;
+}
+#card1{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    background-color: #d8d8d86c;
+    border-radius: 15px 15px;
+    color: #68b346;
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    transition: all .8s ease;
+}
+#card1:hover{
+    width: 165px;
+    height: 165px;
+}
+#mosque{
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    width: 20px;
+    height: 20px;
+}
+#card2{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    right: 200px;
+    background-color: #d8d8d86c;
+    border-radius: 15px 15px;
+    color: #68b346;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    transition: all .8s ease;
+}
+#card2:hover{
+    width: 165px;
+    height: 165px;
+}
+#mosque2{
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    width: 20px;
+    height: 20px;
+}
+#card3{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    right: 400px;
+    background-color: #d8d8d86c;
+    border-radius: 15px 15px;
+    color: #68b346;
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    transition: all .8s ease;
+}
+#card3:hover{
+    width: 165px;
+    height: 165px;
+}
+#mosque3{
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    width: 20px;
+    height: 20px;
+}
+#card4{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    right: 600px;
+    background-color: #d8d8d86c;
+    border-radius: 15px 15px;
+    color: #68b346;
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    transition: all .8s ease;
+}
+#card4:hover{
+    width: 165px;
+    height: 165px;
+}
+#mosque4{
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    width: 20px;
+    height: 20px;
+}
+#card5{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    right: 800px;
+    background-color: #d8d8d86c;
+    border-radius: 15px 15px;
+    color: #68b346;
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    transition: all .8s ease;
+}
+#card5:hover{
+    width: 165px;
+    height: 165px;
+}
+#mosque5{
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    width: 20px;
+    height: 20px;
+}
+.line{
+    position: absolute;
+    top: 1500px;
+    left: 30px;
+    background-color: black;
+    height: 1px;
+    width: 1300px;
+}
+.underline{
+    position: absolute;
+    top: 1520px;
+    display: flex;
+    justify-content: space-around;
+    left: 45%;
+    margin-bottom: 2px;
+}
+.quran{
+    color: #68b346;
+}
+.quranDiv{
+    position: absolute;
+    top: 65%;
+    right: 25%;
+}
+/* mideas quare start from here  */
+@media (max-width:1442px) {
+    .prays pre {
+        position: relative;
+        right: 70px;
+    }
+    #cards {
+        position: relative;
+        right: 130px;
+    }
+}
+
+@media (max-width:1313px) {
+    .prays pre {
+        position: relative;
+        right: 300px;
+    }
+    #cards1and2 {
+        position: relative;
+        top: 175px;
+        right: 300px;
+    }
+    #cards3and4and5 {
+        position: relative;
+        left: 100px;
+    }
+}
+
+@media (max-width:1292px) {
+    .prays {
+        right: 300px;
+    }
+    #inf {
+        right: 600px;
+        margin: auto;
+        padding: 0;
+    }
+}
+@media (max-width:1244px) {
+    .img {
+        right: 500px;
+    }
+    .underline {
+        left: 100px;
+    }
+}
+@media (max-width:1217px) {
+    #list{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+        height: 100px;
+        position: absolute;
+        right: 300px;
+    }
+    .title{
+        position: absolute;
+        left: 100px;
+        top: 120px;
+    }
+    .underline {
+        left: 300px;
+    }
+    .prays {
+        right: 150px;
+    }
+    #inf {
+        display: flex;
+        
+    }
+    #inf pre {
+        align-items: center;
+    }
+}
